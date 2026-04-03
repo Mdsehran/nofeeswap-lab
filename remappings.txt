@@ -1,0 +1,5 @@
+@core/=contracts/core/contracts/
+@openzeppelin/=lib/openzeppelin-contracts/contracts/
+@governance/=lib/governance/contracts/
+@solady/=lib/solady/src/
+forge-std/=lib/forge-std/src/

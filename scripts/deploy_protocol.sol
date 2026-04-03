@@ -2,9 +2,9 @@
 pragma solidity ^0.8.20;
 
 import "forge-std/Script.sol";
-import "contracts/Nofeeswap.sol";
-import "contracts/NofeeswapDelegatee.sol";
-import "contracts/MockERC20.sol";
+import "contracts/core/contracts/Nofeeswap.sol";
+import "contracts/core/contracts/NofeeswapDelegatee.sol";
+import "contracts/core/contracts/MockERC20.sol";
 
 contract DeployProtocol is Script {
 

@@ -3,7 +3,7 @@ pragma solidity ^0.8.28;
 
 import {IERC20} from "@openzeppelin/interfaces/IERC20.sol";
 import {IERC1155} from "@openzeppelin/interfaces/IERC1155.sol";
-import {IERC6909} from "@openzeppelin/interfaces/draft-IERC6909.sol";
+import {IERC6909} from "@openzeppelin/interfaces/IERC6909.sol";
 import {BalanceOverflow} from "./Errors.sol";
 
 /// @dev This library allows transferring native, ERC-20, ERC-1155 and
